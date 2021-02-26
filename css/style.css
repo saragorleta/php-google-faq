@@ -1,0 +1,36 @@
+]{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+.header-top{
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.header-top img{
+  width: 150px;
+}
+.header-bottom{
+  width: 100%;
+  height: 50px;
+}
+.header-bottom ul{
+  display: flex;
+  justify-content: space-around;
+}
+.header-bottom ul li{
+  text-decoration: none;
+}
+.header-bottom ul li:hover{
+  color:blue;
+  text-decoration: underline;
+}
+main{
+  margin:0 auto;
+  width: 1000px;
+  height: 100vh;
+  background-color: lightgrey;
+}
